@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../luadoc.css" type="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+<div id="main">
+
+<div id="navigation">
+
+
+<h1>LuaDoc</h1>
+<ul>
+	
+	<li><a href="../index.html">Index</a></li>
+	
+</ul>
+
+
+<!-- Module list -->
+
+<h1>Modules</h1>
+<ul>
+
+	<li><strong>config</strong></li>
+	
+</ul>
+
+
+
+<!-- File list -->
+
+<h1>Files</h1>
+<ul>
+
+	<li>
+		<a href="../files/config.html">config.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/main.html">main.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/perguntas.html">perguntas.lua</a>
+	</li>
+
+</ul>
+
+
+
+
+
+
+</div><!-- id="navigation" -->
+
+<div id="content">
+
+<h1>Module <code>config</code></h1>
+
+<p></p>
+
+<p><b>Author:</b>
+<table class="authors_list">
+
+	<tr><td class="name">Manoel Campos da Silva Filho - http://manoelcampos.com</td></tr>
+
+</table>
+</p>
+
+
+
+
+
+<h2>Functions</h2>
+<table class="function_list">
+
+	<tr>
+	<td class="name" nowrap><a href="#getValue">getValue</a>&nbsp;(configParamName, defaultValue)</td>
+	<td class="summary">Obtém o valor de um parâmetro de configuração </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#load">load</a>&nbsp;(_fileName)</td>
+	<td class="summary">Carrega o arquivo de configuração </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#save">save</a>&nbsp;()</td>
+	<td class="summary">Salva o conteúdo da tabela de configuração de volta no arquivo de configuração.</td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#setValue">setValue</a>&nbsp;(configParamName, value)</td>
+	<td class="summary">Altera o valor de um parâmetro de configuração </td>
+	</tr>
+
+</table>
+
+
+
+
+
+
+<br/>
+<br/>
+
+
+
+<h2><a name="functions"></a>Functions</h2>
+<dl class="function">
+
+
+
+<dt><a name="getValue"></a><strong>getValue</strong>&nbsp;(configParamName, defaultValue)</dt>
+<dd>
+Obtém o valor de um parâmetro de configuração
+
+
+<h3>Parameters</h3>
+<ul>
+	
+	<li>
+	  configParamName: Nome do parâmetro no arquivo de configuração, carregado na tabela data.
+	</li>
+	
+	<li>
+	  defaultValue: Valor padrão a ser retornado, caso a variável solicitada não exista.
+	</li>
+	
+</ul>
+
+
+
+
+
+
+
+
+<h3>See also:</h3>
+<ul>
+	
+	<li><a href="../modules/config.html#load">
+		load
+	</a>
+	
+</ul>
+
+</dd>
+
+
+
+
+<dt><a name="load"></a><strong>load</strong>&nbsp;(_fileName)</dt>
+<dd>
+Carrega o arquivo de configuração
+
+
+<h3>Parameters</h3>
+<ul>
+	
+	<li>
+	  _fileName: Nome do arquivo a ser carregado. O valor padrão é config.lua
+	</li>
+	
+</ul>
+
+
+
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="save"></a><strong>save</strong>&nbsp;()</dt>
+<dd>
+Salva o conteúdo da tabela de configuração de volta no arquivo de configuração. Função apenas para depuração, pois o módulo io não está disponível no Ginga
+
+
+
+
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="setValue"></a><strong>setValue</strong>&nbsp;(configParamName, value)</dt>
+<dd>
+Altera o valor de um parâmetro de configuração
+
+
+<h3>Parameters</h3>
+<ul>
+	
+	<li>
+	  configParamName: Nome do parâmetro no arquivo de configuração, carregado na tabela data.
+	</li>
+	
+	<li>
+	  value: Valor a ser atribuído ao parâmetro de configuração na tabela data
+	</li>
+	
+</ul>
+
+
+
+
+
+
+
+
+<h3>See also:</h3>
+<ul>
+	
+	<li><a href="../modules/config.html#save">
+		save
+	</a>
+	
+</ul>
+
+</dd>
+
+
+</dl>
+
+
+
+
+
+
+</div> <!-- id="content" -->
+
+</div> <!-- id="main" -->
+
+<div id="about">
+	<p><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a></p>
+</div> <!-- id="about" -->
+
+</div> <!-- id="container" -->	
+</body>
+</html>
